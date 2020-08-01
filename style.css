@@ -1,6 +1,12 @@
+/*To set the background*/
+
 body {
-  background-image: url(images/backgrounds/background-2.jpg)
+  background-image: url(images/backgrounds/background-2.jpg);
+  text-align: center;
 }
+
+/*Header settings for the name box*/
+
 header {
   text-align: center;
   font-family: Lobster;
@@ -10,36 +16,61 @@ header {
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
-  border-color: white;
+  border-color: lightgray;
   margin-bottom: 20px;
 }
+
+/*Fonts and sizes and alignments for texts*/
+
 
 h1 {
   font-family: sans-serif;
   font-size: 40px;
-  text-align: center;
 }
 
-p {
+h2 {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+p, ul, ol {
   font-family: sans-serif;
   font-size: 24px;
-  text-align: center;
+  list-style-position: inside;
 }
+
+a {
+  font-size: 20px;
+}
+
+/*Horizontal line rules*/
+
+hr.normal {
+  border: 5px solid black;
+}
+
+hr.title {
+  border: 5px dashed black;
+}
+
+/*My face picture*/
 
 main img {
   width: 100%;
   border-radius: 20px;
 }
 
-a:link {color: black;}
-a:visited {color: purple;}
-a:hover {color: blue;}
-a:active {color: red;}
+/*Class to make all my boxes round*/
 
 .round {
   background-color: gray;
   border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lightgray;
 }
+
+/*Flex stuff*/
 
 .group {
   display: flex;
@@ -55,6 +86,15 @@ a:active {color: red;}
   flex: 2;
 }
 
+/*Link colors for all my links*/
+
+a:link {color: black;}
+a:visited {color: purple;}
+a:hover {color: blue;}
+a:active {color: red;}
+
+/*form stuff*/
+
 form label {
   display: block;
   font-size: 22px;
@@ -69,6 +109,8 @@ form textarea {
 form button {
   margin: 20px;
 }
+
+/*Change the format for different widths of the window*/
 
 @media all and (min-width: 800px) {
   .group {
