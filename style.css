@@ -22,19 +22,22 @@ header {
 
 /*Fonts and sizes and alignments for texts*/
 
+h1, h2, h3, p, ul, ol {
+  font-family: sans-serif;
+}
 
 h1 {
-  font-family: sans-serif;
   font-size: 40px;
 }
 
 h2 {
-  font-family: sans-serif;
   font-size: 35px;
+}
+h3 {
+  font-size: 30px;
 }
 
 p, ul, ol {
-  font-family: sans-serif;
   font-size: 24px;
   list-style-position: inside;
 }
